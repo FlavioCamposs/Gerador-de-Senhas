@@ -43,19 +43,19 @@ SUA SENHA DEVERÁ TER NO MÁXIMO 8 CARACTERES!
 3° - Quantos números você deseja?: 3
 4° - Quantos símbolos?: 2
 -----------------------------------------------------------
-GERANDO SENHA...
+GERANDO SENHA... #continuará após 2 segundos
 -----------------------------------------------------------
 SENHA GERADA!
 A senha é: 125qtºg)
 Deseja gerar outra senha? [S/N]: s
 -----------------------------------------------------------
-GERANDO SENHA...
+GERANDO SENHA... #continuará após 2 segundos
 -----------------------------------------------------------
 SENHA GERADA!
 A senha é: x62cp°!2
 Deseja gerar outra senha? [S/N]: s
 -----------------------------------------------------------
-GERANDO SENHA...
+GERANDO SENHA... #continuará após 2 segundos
 -----------------------------------------------------------
 SENHA GERADA!
 A senha é: 22du/m7º
