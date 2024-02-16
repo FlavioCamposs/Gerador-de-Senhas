@@ -53,7 +53,7 @@ GERANDO SENHA... #continuará após 2 segundos
 -----------------------------------------------------------
 SENHA GERADA!
 A senha é: x62cp°!2
-Deseja gerar outra senha? [S/N]: s
+Deseja gerar outra senha? [S/N]: S
 -----------------------------------------------------------
 GERANDO SENHA... #continuará após 2 segundos
 -----------------------------------------------------------
