@@ -1,20 +1,26 @@
 import random
 from time import sleep
 
+print('\033[1;92m', end='')
 print('-' * 40)
-print('\033[1m{:^40}\033[m'.format('GERADOR DE SENHAS ALEATÓRIAS'))
+print('{:^40}'.format('GERADOR DE SENHAS ALEATÓRIAS'))
 print('-' * 40)
+print('\033[m', end='')
 
+print('\033[1;97m', end='')
 print('Seja muito bem vindo ao gerador de senhas aleatórias,\npreencha as informações que serão solicitadas a você: ')
 
 print('-' * 59)
 
+
 print('Só há apenas uma regra para gerar a sua senha:')
-print('\033[1mSUA SENHA DEVERÁ TER NO MÁXIMO 8 CARACTERES!\033[m')
+print('\033[1;91mSUA SENHA DEVERÁ TER NO MÁXIMO 8 CARACTERES!\033[m')
 print()
+print('\033[m', end='')
 
 
 while True:
+    print('\033[1;97m', end='')
     #PEDINDO AS INFORMAÇÕES
     letras = int(input('1° - Quantas letras você quer que tenha na senha?: '))
     #CONDIÇÃO APENAS PARA O PROGRAMA NÃO FAZER A PERGUNTA ABAIXO CASO O USUÁRIO NÃO QUEIRA NENHUMA LETRA
@@ -24,6 +30,7 @@ while True:
     simbolos = int(input('4° - Quantos símbolos?: '))
 
     while (letras + numeros + simbolos) <= 8:
+        print('\033[1;97m')
         #GERANDO AS LETRAS E VERIFICANDO SE É "M" OU "m"
         abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
                'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
@@ -40,14 +47,21 @@ while True:
 
         if letras == 0 and numeros == 0 and simbolos == 0:
             print('-' * 59)
-            print('Dados inválidos!')
+            print('\033[1;91mDADOS INVÁLIDOS!\033[m')
             break
 
-
         print('-' * 59)
-        print('GERANDO SENHA...')
+        print('\033[1;94m', end='')
+        print('GERANDO SENHA', end='')
+        sleep(1)
+        print('.', end='')
+        sleep(1)
+        print('.', end='')
+        sleep(1)
+        print('.')
+        print('\033[m', end='')
         sleep(2)
-        print('-' * 59)
+        print('\033[1;97m-\033[m' * 59)
 
         #GERANDO OS NUMEROS
         nums = 0
@@ -116,16 +130,18 @@ while True:
 
         random.shuffle(senhaOrganizada)
 
-        print('SENHA GERADA!')
-        print('A senha é: ', end='')
+        print('\033[1;92mSENHA GERADA!\033[m')
+        print('\033[1;97mA senha é: \033[m', end='')
         for c in senhaOrganizada:
-            print(c, end='')
+            print(f'\033[1;93m{c}\033[m', end='')
         print()
-        pc = str(input('Deseja gerar outra senha? [S/N]: ')).upper()[0]
+        pc = str(input('\033[1;97mDeseja gerar outra senha? [S/N]: \033[m')).upper()[0]
         if pc == 'N':
-            print('-' * 59)
-            print('Muito obrigado e até a próxima!')
+            print('\033[1;97m-\033[m' * 59)
+            print('\033[1;92mMuito obrigado e até a próxima!\033[m')
             break
     else:
-        print('VOCÊ EXCEDEU O LIMITE DE CARACTERES!')
+        print('-' * 59)
+        print('\033[1;91mVOCÊ EXCEDEU O LIMITE DE CARACTERES!\033[m')
     break
+    print('\033[m', end='')
