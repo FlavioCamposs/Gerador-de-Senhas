@@ -28,40 +28,6 @@ O programa solicitará as seguintes informações:
 
 ## Exemplo de Uso
 
-```bash
-----------------------------------------
-      GERADOR DE SENHAS ALEATÓRIAS      
-----------------------------------------
-Seja muito bem vindo ao gerador de senhas aleatórias,
-preencha as informações que serão solicitadas a você: 
------------------------------------------------------------
-Só há apenas uma regra para gerar a sua senha:
-SUA SENHA DEVERÁ TER NO MÁXIMO 8 CARACTERES!
-
-1° - Quantas letras você quer que tenha na senha?: 3
-2° - Você deseja letras MAIUSCULAS ou minusculas? [M/m]: m
-3° - Quantos números você deseja?: 3
-4° - Quantos símbolos?: 2
------------------------------------------------------------
-GERANDO SENHA... #continuará após 2 segundos
------------------------------------------------------------
-SENHA GERADA!
-A senha é: 125qtºg)
-Deseja gerar outra senha? [S/N]: s
------------------------------------------------------------
-GERANDO SENHA... #continuará após 2 segundos
------------------------------------------------------------
-SENHA GERADA!
-A senha é: x62cp°!2
-Deseja gerar outra senha? [S/N]: S
------------------------------------------------------------
-GERANDO SENHA... #continuará após 2 segundos
------------------------------------------------------------
-SENHA GERADA!
-A senha é: 22du/m7º
-Deseja gerar outra senha? [S/N]: n
------------------------------------------------------------
-Muito obrigado e até a próxima!
-```
+![Texto Alternativo]([https://i.imgur.com/fozf0FY.png](https://i.imgur.com/IvPTgjS.png))
 
 Divirta-se gerando suas senhas! Se tiver dúvidas ou sugestões, sinta-se à vontade para contribuir ou entrar em contato comigo!.
