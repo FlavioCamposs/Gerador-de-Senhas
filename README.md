@@ -28,6 +28,6 @@ O programa solicitará as seguintes informações:
 
 ## Exemplo de Uso
 
-![Texto Alternativo](https://i.imgur.com/IvPTgjS.png)
+![...](https://i.imgur.com/IvPTgjS.png)
 
 Divirta-se gerando suas senhas! Se tiver dúvidas ou sugestões, sinta-se à vontade para contribuir ou entrar em contato comigo!.
