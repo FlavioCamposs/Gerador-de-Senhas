@@ -1,4 +1,4 @@
-# Gerador de Senhas Aleatórias
+# Gerador de Senhas
 
 Este é um simples gerador de senhas aleatórias em Python. Ele permite que você especifique a quantidade de letras, números e símbolos que deseja em sua senha.
 
